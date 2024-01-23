@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.author         = { 'Joshua Sierles' => 'joshua@diluvia.net' }
   s.homepage       = "https://github.com/jsierles/react-native-audio"
   s.source         = { :git => 'https://github.com/jsierles/react-native-audio.git', :tag => "v#{s.version}"}
-  s.platform       = :ios, '8.0'
+  s.platform       = :ios, '12.4'
   s.preserve_paths = '*.js'
   s.frameworks     = 'AVFoundation'
 
-  s.dependency 'React'
+  s.dependency 'React-Core'
 
   s.source_files = 'ios/AudioRecorderManager.{h,m}'
 end
